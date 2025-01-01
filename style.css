@@ -82,6 +82,16 @@ figure {
     height: auto;
 }
 
+.LB {
+    width: 60%;
+    height: auto;
+}
+
+.RL {
+    width: 60%;
+    height: auto;
+}
+
 figcaption {
     background-color: black;
     color: white;
