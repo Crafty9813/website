@@ -20,17 +20,25 @@ h1 {
     position:relative;
     top:-350px;
     left:20px;
-    color:white;
+    color:lightyellow;
 
 }
+
+.BoothP {
+    position: relative;
+    top:-400px;
+    left:550px;
+    color:lightgreen;
+}
+
 
 p {
     color: white;
 }
 
 button {
-    margin-left: 500px;
-    margin-top: 500px;
+    margin-left: 900px;
+    margin-top: -500px;
     background-color: skyblue;
     border-radius: 10px;
     color: white;
@@ -91,6 +99,62 @@ figure {
     width: 60%;
     height: auto;
 }
+
+.Booth {
+    width: 70%;
+    height: auto;
+}
+
+.Eternal {
+    width: 60%;
+    height: auto;
+}
+
+.TS {
+    width: 60%;
+    height: auto;
+}
+
+.Styro {
+    width: 60%;
+    height: auto;
+}
+
+.Hacksmith {
+    width: 60%;
+    height: auto;
+}
+
+.Allen {
+    width: 60%;
+    height: auto;
+}
+
+.Jake {
+    width: 60%;
+    height: auto;
+}
+
+.Veritasium {
+    width: 60%;
+    height: auto;
+}
+
+.Joel {
+    width: 60%;
+    height: auto;
+}
+
+.Peter {
+    width: 60%;
+    height: auto;
+}
+
+.PA {
+    width: 60%;
+    height: auto;
+}
+
 
 figcaption {
     background-color: black;
