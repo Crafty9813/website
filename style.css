@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.Me {
+    position:relative;
+    left:1000px;
+    width: 25%;
+    height: auto;
+}
+
+h1 {
+    color: skyblue;
+    text-align: center;
+}
+
+.IntroP {
+    position:relative;
+    top:-350px;
+    left:20px;
+    color:white;
+
+}
+
+p {
+    color: white;
+}
+
+button {
+    margin-left: 500px;
+    margin-top: 500px;
+    background-color: skyblue;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px 15px;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px; /* Space from the top */
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+    width: 45%;
+}
+
+.OSP {
+    width: 70%;
+    height: auto;
+}
+
+.Strandbeest {
+    position:relative;
+    width:70%;
+    height: auto;
+}
+
+.Arm {
+    width: 70%;
+    height: auto;
+}
+
+.PBR {
+    position:relative;
+    top:20px;
+}
+
+.EV {
+    width: 70%;
+    height: auto;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 5px;
+    margin-top: 10px; /*space between img & caption */
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    figure {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
