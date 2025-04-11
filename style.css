@@ -31,7 +31,7 @@ h1 {
 .BoothP {
     position: relative;
     top:-400px;
-    left:500px;
+    left:570px;
     color:lightgreen;
 }
 
@@ -85,8 +85,7 @@ figure {
 }
 
 .Yolo {
-    width: 90%;
-    height: auto;
+    width: 70%;
 }
 
 .PBR {
