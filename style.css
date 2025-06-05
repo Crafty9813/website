@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.Me {
+#Me {
     position:relative;
     left:1000px;
     width: 25%;
@@ -20,7 +20,11 @@ h1 {
     text-align: center;
 }
 
-.IntroP {
+p {
+    color: white;
+}
+
+#IntroP {
     position:relative;
     top:-350px;
     left:20px;
@@ -28,16 +32,11 @@ h1 {
 
 }
 
-.BoothP {
+#boothP {
     position: relative;
     top:-400px;
     left:570px;
     color:lightgreen;
-}
-
-
-p {
-    color: white;
 }
 
 button {
@@ -68,101 +67,66 @@ figure {
     width: 45%;
 }
 
-.OSP {
+.open-sauce-projects {
+    border-radius: 100px;
     width: 70%;
     height: auto;
 }
 
-.Strandbeest {
+.strandbeest {
     position:relative;
+    border-radius: 50px;
     width:70%;
     height: auto;
 }
 
-.Arm {
+.arm {
+    border-radius: 200px;
     width: 70%;
     height: auto;
 }
 
-.Yolo {
+.yolo {
+    border-radius: 150px;
+    margin-top: 20px;
     width: 70%;
 }
 
-.PBR {
+.plastic-bottle-bot {
     position:relative;
     top:20px;
 }
 
 .EV {
+    border-radius: 20px;
     width: 70%;
     height: auto;
 }
 
-.LB {
+.lidar-bot-img {
+    border-radius: 30px;
     width: 60%;
     height: auto;
 }
 
-.RL {
+.ROSLidar {
     width: 60%;
     height: auto;
 }
 
-.Booth {
+.booth-image {
+    border-radius: 20px;
     width: 70%;
     height: auto;
 }
 
-.Eternal {
+
+/* same style for all the open sauce people photos */
+.people-met-photos {
+    border-radius: 50px;
     width: 60%;
     height: auto;
 }
-
-.TS {
-    width: 60%;
-    height: auto;
-}
-
-.Styro {
-    width: 60%;
-    height: auto;
-}
-
-.Hacksmith {
-    width: 60%;
-    height: auto;
-}
-
-.Allen {
-    width: 60%;
-    height: auto;
-}
-
-.Jake {
-    width: 60%;
-    height: auto;
-}
-
-.Veritasium {
-    width: 60%;
-    height: auto;
-}
-
-.Joel {
-    width: 60%;
-    height: auto;
-}
-
-.Peter {
-    width: 60%;
-    height: auto;
-}
-
-.PA {
-    width: 60%;
-    height: auto;
-}
-
 
 figcaption {
     background-color: black;
