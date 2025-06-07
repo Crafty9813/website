@@ -1,149 +1,147 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
 #Me {
-    position:relative;
-    left:1000px;
-    width: 25%;
-    height: auto;
-    border-radius: 20px;
-    border-style: double;
-    border-width: 4px;
-    border-color: lightgreen;
+  position: relative;
+  left: 1000px;
+  width: 25%;
+  height: auto;
+  border-radius: 20px;
+  border-style: double;
+  border-width: 4px;
+  border-color: lightgreen;
 }
 
 h1 {
-    color: skyblue;
-    text-align: center;
+  color: skyblue;
+  text-align: center;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 #IntroP {
-    position:relative;
-    top:-350px;
-    left:20px;
-    color:lightyellow;
-
+  position: relative;
+  top: -350px;
+  left: 20px;
+  color: lightyellow;
 }
 
 #boothP {
-    position: relative;
-    top:-400px;
-    left:570px;
-    color:lightgreen;
+  position: relative;
+  top: -400px;
+  left: 570px;
+  color: lightgreen;
 }
 
 button {
-    margin-left: 900px;
-    margin-top: -500px;
-    background-color: skyblue;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 8px 15px;
+  margin-left: 900px;
+  margin-top: -500px;
+  background-color: skyblue;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 8px 15px;
 }
 
 .image-container {
-    display: flex; 
-    justify-content: space-between; 
-    margin-top: 20px; /* Space from the top */
-    padding: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Space from the top */
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
 figure {
-    text-align: center;
-    margin: 0;
-    width: 45%;
+  text-align: center;
+  margin: 0;
+  width: 45%;
 }
 
 #open-sauce-projects {
-    border-radius: 100px;
-    width: 70%;
-    height: auto;
+  border-radius: 100px;
+  width: 70%;
+  height: auto;
 }
 
 #strandbeest {
-    position:relative;
-    border-radius: 50px;
-    width:70%;
-    height: auto;
+  position: relative;
+  border-radius: 50px;
+  width: 70%;
+  height: auto;
 }
 
 #robotic-arm {
-    border-radius: 200px;
-    width: 70%;
-    height: auto;
+  border-radius: 200px;
+  width: 70%;
+  height: auto;
 }
 
 .yolo {
-    border-radius: 150px;
-    margin-top: 20px;
-    width: 70%;
+  border-radius: 150px;
+  margin-top: 20px;
+  width: 70%;
 }
 
 .plastic-bottle-bot {
-    position:relative;
-    top:20px;
+  position: relative;
+  top: 20px;
 }
 
 #EV {
-    border-radius: 20px;
-    width: 70%;
-    height: auto;
+  border-radius: 20px;
+  width: 70%;
+  height: auto;
 }
 
 #lidar-bot-img {
-    border-radius: 30px;
-    width: 60%;
-    height: auto;
+  border-radius: 30px;
+  width: 60%;
+  height: auto;
 }
 
 .ROSLidar {
-    width: 60%;
-    height: auto;
+  width: 60%;
+  height: auto;
 }
 
 .booth-image {
-    border-radius: 20px;
-    width: 70%;
-    height: auto;
+  border-radius: 20px;
+  width: 70%;
+  height: auto;
 }
-
 
 /* same style for all the open sauce people photos */
 .people-met-photos {
-    border-radius: 50px;
-    width: 60%;
-    height: auto;
+  border-radius: 50px;
+  width: 60%;
+  height: auto;
 }
 
 figcaption {
-    background-color: black;
-    color: white;
-    font-style: italic;
-    padding: 5px;
-    margin-top: 10px; /*space between img & caption */
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 5px;
+  margin-top: 10px; /*space between img & caption */
 }
 
 @media (max-width: 768px) {
-    .image-container {
-        flex-direction: column;
-        align-items: center; 
-    }
+  .image-container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    figure {
-        width: 80%;
-        margin-bottom: 20px;
-    }
+  figure {
+    width: 80%;
+    margin-bottom: 20px;
+  }
 }
