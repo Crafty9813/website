@@ -1,7 +1,10 @@
 body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   background-color: black;
-  color: white;
-  font-family: Arial, sans-serif;
 }
 
 #Me {
@@ -36,20 +39,6 @@ p {
   top: -400px;
   left: 570px;
   color: lightgreen;
-}
-
-button {
-  margin-left: 900px;
-  margin-top: -500px;
-  background-color: skyblue;
-  border-radius: 10px;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  font-size: 20px;
-  padding: 8px 15px;
 }
 
 .image-container {
@@ -129,9 +118,26 @@ figure {
 figcaption {
   background-color: black;
   color: white;
-  font-style: italic;
+  font-style: oblique;
   padding: 5px;
   margin-top: 10px; /*space between img & caption */
+}
+
+button {
+  position: relative;
+  bottom: 300px;
+  left: 100px;
+  background-color: skyblue;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 8px 15px;
+}
+
+button:active {
+  background-color: blue;
 }
 
 @media (max-width: 768px) {
