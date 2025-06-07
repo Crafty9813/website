@@ -1,182 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Jonathan Li</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>About me</h1>
 
-    <img src="images/Me.jpg" alt="me" id="Me">
-   
+    <img src="images/Me.jpg" alt="me" id="Me" />
+
     <!--INTRO PARAGRAPH-->
-    <p id = "IntroP">Hey there! My name is Jonathan Li, and I'm currently a freshman in high school. 
-       I love robotics, and building things in <br> general ever since I was young. Most of the stuff I do here is self taught. I thank my mom 
-       for all the support in my passion like <br> buying expensive parts. 
-       I have a youtube channel where I explain many of my projects. But, some of them are here too, <br> just go down!
-       <br> <br> <br> <br>
-       Also as a sidenote sorry for website looking really sketchy, I just coded it with pure html & css lol... just don't look at my repo for this :/
-       <br> or if you want to look at my better coded and organized social studies project repo on my github.
+    <p id="IntroP">
+      Hey there! My name is Jonathan Li, and I'm currently a freshman in high
+      school. I love robotics, and building things in <br />
+      general ever since I was young. Most of the stuff I do here is self
+      taught. I thank my mom for all the support in my passion like <br />
+      buying expensive parts. I have a youtube channel where I explain many of
+      my projects. But, some of them are here too, <br />
+      just go down! <br />
+      <br />
+      <br />
+      <br />
+      Also as a sidenote sorry for website looking really sketchy, I just coded
+      it with pure html & css lol... just don't look at my repo for this :/
+      <br />
+      or if you want to look at my better coded and organized social studies
+      project repo on my github.
     </p>
 
     <h1>Some Projects I'm Proud of</h1>
 
-
     <!--IMAGES OF PROJECTS-->
     <div class="image-container">
+      <figure>
+        <video class="apriltag-follower" width="320" height="240" controls>
+          <source src="videos/apriltag-follower.mp4" type="video/mp4" />
+        </video>
+        <figcaption>Raspberry Pi Apriltag follower, no SolvePnP</figcaption>
+      </figure>
 
-        <figure>
-            <video class = "apriltag-follower" width="320" height="240" controls>
-                <source src="videos/apriltag-follower.mp4" type="video/mp4">
-            </video>
-            <figcaption>Raspberry Pi Apriltag follower, no SolvePnP</figcaption>
-        </figure>
+      <figure>
+        <video class="gdino" width="320" height="240" controls>
+          <source src="videos/gdino.mp4" type="video/mp4" />
+        </video>
+        <figcaption>
+          gdino - PyTorch for FRC 2025 algae detection, learnt from mentor
+        </figcaption>
+      </figure>
 
-        <figure>
-            <video class = "gdino" width="320" height="240" controls>
-                <source src="videos/gdino.mp4" type="video/mp4">
-            </video>
-            <figcaption>gdino - PyTorch for FRC 2025 algae detection, learnt from mentor</figcaption>
-        </figure>
+      <figure>
+        <img src="images/YOLO.png" alt="yolo" class="yolo" />
+        <figcaption>Played w/ YOLO11 pretrained object recognition</figcaption>
+      </figure>
 
-        <figure>
-            <img src="images/YOLO.png" alt="yolo" class="yolo">
-            <figcaption>Played w/ YOLO11 pretrained object recognition</figcaption>
-        </figure>
+      <figure>
+        <video class="mediapipe" width="320" height="240" controls>
+          <source src="videos/Mediapipe.mp4" type="video/mp4" />
+        </video>
+        <figcaption>Mediapipe gesture controlled mouse</figcaption>
+      </figure>
 
-        <figure>
-            <video class = "mediapipe" width="320" height="240" controls>
-                <source src="videos/Mediapipe.mp4" type="video/mp4">
-            </video>
-            <figcaption>Mediapipe gesture controlled mouse</figcaption>
-        </figure>
+      <figure>
+        <video class="facial-recognition" width="320" height="240" controls>
+          <source src="videos/facial-recognition.mp4" type="video/mp4" />
+        </video>
+        <figcaption>
+          Raspberry Pi facial recognition security camera, Haar Cascade
+        </figcaption>
+      </figure>
 
-        <figure>
-            <video class = "facial-recognition" width="320" height="240" controls>
-                <source src="videos/facial-recognition.mp4" type="video/mp4">
-            </video>
-            <figcaption>Raspberry Pi facial recognition security camera, Haar Cascade</figcaption>
-        </figure>
+      <figure>
+        <img src="images/robotic-arm.png" alt="6 dof arm" id="robotic-arm" />
+        <figcaption>6 DOF 3d printed arm</figcaption>
+      </figure>
 
-        <figure>
-            <img src="images/robotic-arm.png" alt="6 dof arm" id="robotic-arm">
-            <figcaption>6 DOF 3d printed arm</figcaption>
-        </figure>
+      <figure>
+        <img
+          src="images/open-sauce-projects.jpg"
+          alt="Open Sauce projects"
+          id="open-sauce-projects"
+        />
+        <figcaption>Stuff I brought to show at Open Sauce 2024!</figcaption>
+      </figure>
 
-        <figure>
-            <img src="images/open-sauce-projects.jpg" alt="Open Sauce projects" id="open-sauce-projects">
-            <figcaption>Stuff I brought to show at Open Sauce 2024!</figcaption>
-        </figure>
+      <figure>
+        <img
+          src="images/strandbeest.JPG"
+          alt="RC strandbeest"
+          id="strandbeest"
+        />
+        <figcaption>My RC FPV strandbeest model</figcaption>
+      </figure>
 
-        <figure>
-            <img src="images/strandbeest.JPG" alt="RC strandbeest" id="strandbeest">
-            <figcaption>My RC FPV strandbeest model</figcaption>
-        </figure>
+      <figure>
+        <video class="swerve-drive" width="400" height="300" controls>
+          <source src="videos/swerve-drive.mp4" type="video/mp4" />
+        </video>
+        <figcaption>My custom Arduino swerve drive</figcaption>
+      </figure>
 
-        <figure>
-            <video class = "swerve-drive" width="400" height="300" controls>
-                <source src="videos/swerve-drive.mp4" type="video/mp4">
-            </video>
-            <figcaption>My custom Arduino swerve drive</figcaption>
-        </figure>
+      <figure>
+        <img src="images/EV.JPG" alt="EV" id="EV" />
+        <figcaption>
+          I made this for SciOly except I'm not doing SciOly anymore
+        </figcaption>
+      </figure>
 
-        <figure>
-            <img src="images/EV.JPG" alt="EV" id ="EV">
-            <figcaption>I made this for SciOly except I'm not doing SciOly anymore</figcaption>
-        </figure>
+      <figure>
+        <video class="plastic-bottle-bot" width="320" height="240" controls>
+          <source src="videos/plastic-bottle-bot.mp4" type="video/mp4" />
+        </video>
+        <figcaption>
+          State-machine based autonomous plastic bottle pickup robot
+        </figcaption>
+      </figure>
 
-        <figure>
-            <video class = "plastic-bottle-bot" width="320" height="240" controls>
-                <source src="plastic-bottle-bot.mp4" type="video/mp4">
-            </video>
-            <figcaption>State-machine based autonomous plastic bottle pickup robot</figcaption>
-        </figure>
+      <figure>
+        <img src="images/lidar-bot.png" alt="Lidar robot" id="lidar-bot-img" />
+        <figcaption>Current wip design for lidar robot with ROS2</figcaption>
+      </figure>
 
-        <figure>
-            <img src="images/lidar-bot.png" alt="Lidar robot" id="lidar-bot-img">
-            <figcaption>Current wip design for lidar robot with ROS2</figcaption>
-        </figure>
-
-        <figure>
-            <img src="images/ROSLidar.png" alt="ROS Lidar Demo" class="ROSLidar">
-            <figcaption>I got started with ROS & lidar! Gazebo & Rviz sim</figcaption>
-        </figure>
-
+      <figure>
+        <img src="images/ROSLidar.png" alt="ROS Lidar Demo" class="ROSLidar" />
+        <figcaption>
+          I got started with ROS & lidar! Gazebo & Rviz sim
+        </figcaption>
+      </figure>
     </div>
-
 
     <!--OPEN SAUCE SECTION-->
     <h1>My Open Sauce experience & some cool people I met!</h1>
 
     <figure>
-        <img src="images/booth-image.jpg" alt="Booth" class="booth-image">
-        <figcaption>My booth! Me explaning dragonfly ornithopter mechanism</figcaption>
+      <img src="images/booth-image.jpg" alt="Booth" class="booth-image" />
+      <figcaption>
+        My booth! Me explaning dragonfly ornithopter mechanism
+      </figcaption>
     </figure>
 
-    <p id = "boothP">At my booth I showed my Arduino quadcopter which uses an mpu6050, a line follower, 
-        a humanoid hand,<br> facial recognition on raspi, an ornithopter, aruco marker detection, and a 
-        simple hc05 bluetooth rc car. It was very fun!
+    <p id="boothP">
+      At my booth I showed my Arduino quadcopter which uses an mpu6050, a line
+      follower, a humanoid hand,<br />
+      facial recognition on raspi, an ornithopter, aruco marker detection, and a
+      simple hc05 bluetooth rc car. It was very fun!
     </p>
 
     <a href="https://www.youtube.com/@JonathanLi-9813/videos" target="_blank">
-        <button type="button">My youtube channel</button>
+      <button type="button">My youtube channel</button>
     </a>
 
     <figure>
-        <img src="images/eternal-progression.jpg" alt="Eternal Progression" class="people-met-photos">
-        <figcaption>Eternal Progression (Josh) was in the same hotel!</figcaption>
+      <img
+        src="images/eternal-progression.jpg"
+        alt="Eternal Progression"
+        class="people-met-photos"
+      />
+      <figcaption>Eternal Progression (Josh) was in the same hotel!</figcaption>
     </figure>
 
     <figure>
-        <img src="images/tom-stanton.JPG" alt="Tom Stanton" class="people-met-photos">
-        <figcaption>I met Tom Stanton</figcaption>
+      <img
+        src="images/tom-stanton.JPG"
+        alt="Tom Stanton"
+        class="people-met-photos"
+      />
+      <figcaption>I met Tom Stanton</figcaption>
     </figure>
 
     <figure>
-        <img src="images/Styropyro.jpg" alt="Styropyro" class="people-met-photos">
-        <figcaption>I met Styropyro (Drake)</figcaption>
+      <img
+        src="images/Styropyro.jpg"
+        alt="Styropyro"
+        class="people-met-photos"
+      />
+      <figcaption>I met Styropyro (Drake)</figcaption>
     </figure>
 
     <figure>
-        <img src="images/Hacksmith.JPG" alt="The Hacksmith" class="people-met-photos">
-        <figcaption>I met James Hobson (The Hacksmith)</figcaption>
+      <img
+        src="images/Hacksmith.JPG"
+        alt="The Hacksmith"
+        class="people-met-photos"
+      />
+      <figcaption>I met James Hobson (The Hacksmith)</figcaption>
     </figure>
 
     <figure>
-        <img src="images/allen-pan.JPG" alt="Allen Pan" class="people-met-photos">
-        <figcaption>I met Allen Pan</figcaption>
+      <img
+        src="images/allen-pan.JPG"
+        alt="Allen Pan"
+        class="people-met-photos"
+      />
+      <figcaption>I met Allen Pan</figcaption>
     </figure>
 
     <figure>
-        <img src="images/JLaser.jpg" alt="Jake Laser" class="people-met-photos">
-        <figcaption>I met Jake Laser (JLaserVideo)</figcaption>
-    </figure>
-
-
-    <figure>
-        <img src="images/Veritasium.jpg" alt="Veritasium" class="people-met-photos">
-        <figcaption>I met Veritasium</figcaption>
-    </figure>
-
-
-    <figure>
-        <img src="images/Joel-creates.jpg" alt="Joel Creates" class="people-met-photos">
-        <figcaption>I met Joel (Joel Creates)</figcaption>
-    </figure>
-
-
-    <figure>
-        <img src="images/peter-sripol.JPG" alt="Peter Sripol" class="people-met-photos">
-        <figcaption>I met Peter Sripol</figcaption>
+      <img src="images/JLaser.jpg" alt="Jake Laser" class="people-met-photos" />
+      <figcaption>I met Jake Laser (JLaserVideo)</figcaption>
     </figure>
 
     <figure>
-        <img src="images/ProjectAir.JPG" alt="Project Air" class="people-met-photos">
-        <figcaption>I met James Whomsley (Project Air)</figcaption>
+      <img
+        src="images/Veritasium.jpg"
+        alt="Veritasium"
+        class="people-met-photos"
+      />
+      <figcaption>I met Veritasium</figcaption>
     </figure>
-      
 
-</body>
+    <figure>
+      <img
+        src="images/Joel-creates.jpg"
+        alt="Joel Creates"
+        class="people-met-photos"
+      />
+      <figcaption>I met Joel (Joel Creates)</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="images/peter-sripol.JPG"
+        alt="Peter Sripol"
+        class="people-met-photos"
+      />
+      <figcaption>I met Peter Sripol</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="images/ProjectAir.JPG"
+        alt="Project Air"
+        class="people-met-photos"
+      />
+      <figcaption>I met James Whomsley (Project Air)</figcaption>
+    </figure>
+  </body>
 </html>
