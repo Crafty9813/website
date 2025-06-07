@@ -67,20 +67,20 @@ figure {
     width: 45%;
 }
 
-.open-sauce-projects {
+#open-sauce-projects {
     border-radius: 100px;
     width: 70%;
     height: auto;
 }
 
-.strandbeest {
+#strandbeest {
     position:relative;
     border-radius: 50px;
     width:70%;
     height: auto;
 }
 
-.robotic-arm {
+#robotic-arm {
     border-radius: 200px;
     width: 70%;
     height: auto;
@@ -97,13 +97,13 @@ figure {
     top:20px;
 }
 
-.EV {
+#EV {
     border-radius: 20px;
     width: 70%;
     height: auto;
 }
 
-.lidar-bot-img {
+#lidar-bot-img {
     border-radius: 30px;
     width: 60%;
     height: auto;
