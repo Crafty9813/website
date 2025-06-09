@@ -8,14 +8,15 @@ body {
 }
 
 #Me {
+  border-radius: 150px;
+  padding: 5px;
+  background: linear-gradient(45deg, green, yellow) border-box;
+  background-clip: padding-box;
+
   position: relative;
   left: 1000px;
   width: 25%;
   height: auto;
-  border-radius: 20px;
-  border-style: double;
-  border-width: 4px;
-  border-color: lightgreen;
 }
 
 h1 {
@@ -37,6 +38,7 @@ p {
 
 #IntroP {
   position: relative;
+  margin-right: 500px;
   top: -350px;
   left: 20px;
   color: lightyellow;
@@ -44,9 +46,22 @@ p {
 
 #boothP {
   position: relative;
-  top: -400px;
-  left: 570px;
+  text-align: right;
+  margin-right: 100px;
+  margin-left: 600px;
+  bottom: 400px;
   color: lightgreen;
+}
+
+.booth-image {
+  border-radius: 200px;
+  padding: 3px;
+  background: linear-gradient(45deg, blue, lightblue);
+  background-clip: padding-box;
+
+  border-radius: 20px;
+  width: 70%;
+  height: auto;
 }
 
 .image-container {
@@ -110,15 +125,13 @@ figure {
   height: auto;
 }
 
-.booth-image {
-  border-radius: 20px;
-  width: 70%;
-  height: auto;
-}
-
 /* same style for all the open sauce people photos */
 .people-met-photos {
-  border-radius: 50px;
+  border-radius: 100px;
+  padding: 5px;
+  background: linear-gradient(45deg, blue, red);
+  background-clip: padding-box;
+
   width: 60%;
   height: auto;
 }
