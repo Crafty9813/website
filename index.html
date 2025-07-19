@@ -19,19 +19,17 @@
 
     <!--INTRO PARAGRAPH-->
     <p id="IntroP">
-      Hey there! My name is Jonathan Li, and I'm currently a freshman in high
-      school. I love robotics, and building things in general ever since I was
-      young. Most of the stuff I do here is self taught. I thank my mom for all
-      the support in my passion like buying expensive parts. I have a youtube
-      channel where I explain many of my projects. But, some of them are here
-      too, just go down! <br />
-      <br />
+      Hey there! My name is Jonathan Li, and I'm currently a sophomore in high
+      school. I'm really into autonomous robotics and ML. I've been building
+      cool things ever since I was young, and most of the stuff I do here is
+      self taught. I really thank my mom for all of her support in my passion,
+      without her I wouldn't have made it to where I am today. I have a Youtube
+      channel where I explain many of my projects, and my GitHub has most of the
+      code for them. Scroll down to view some of my work! <br />
       <br />
       <br />
       Also as a sidenote sorry for website looking really sketchy, I just coded
-      it with pure html & css lol... just don't look at my repo for this :/ or
-      if you want to look at my better coded and organized social studies
-      project repo on my github.
+      it with pure html & css lol... just don't look at my repo for this :/
     </p>
 
     <a href="https://www.youtube.com/@JonathanLi-9813/videos" target="_blank">
@@ -44,13 +42,62 @@
 
     <h1>Some Projects I'm Proud of</h1>
 
-    <!-- IMAGES OF PROJECTS -->
+    <!-- IMAGES & VIDEOS OF PROJECTS -->
     <div class="image-container">
+      <figure>
+        <video class="num-classifier" width="320" height="240" controls>
+          <source src="videos/num_classifier.mp4" type="video/mp4" />
+        </video>
+        <figcaption>
+          PyTorch digit classification using a CNN. Data is from the MNIST
+          dataset.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <video
+          class="sentiment-analysis-project"
+          width="320"
+          height="240"
+          controls
+        >
+          <source src="videos/sentiment-analysis.mp4" type="video/mp4" />
+        </video>
+        <figcaption>Sentiment analysis using sklearn in Python.</figcaption>
+      </figure>
+
       <figure>
         <video class="apriltag-follower" width="320" height="240" controls>
           <source src="videos/apriltag-follower.mp4" type="video/mp4" />
         </video>
-        <figcaption>Raspberry Pi Apriltag follower, no SolvePnP</figcaption>
+        <figcaption>
+          Raspberry Pi Apriltag (or any other fiducial marker) follower
+        </figcaption>
+      </figure>
+
+      <figure>
+        <video class="ultrasonic-lamp" width="320" height="240" controls>
+          <source src="videos/ultrasonic_lamp.mp4" type="video/mp4" />
+        </video>
+        <figcaption>HC-SR04 ultrasonic sensor motion lamp.</figcaption>
+      </figure>
+
+      <figure>
+        <video class="arduino-lidar-bot" width="320" height="240" controls>
+          <source src="videos/arduino-lidar-bot.mp4" type="video/mp4" />
+        </video>
+        <figcaption>
+          Simple Arduino obstacle avoiding robot using LiDAR
+        </figcaption>
+      </figure>
+
+      <figure>
+        <video class="plastic-bottle-bot" width="320" height="240" controls>
+          <source src="videos/plastic-bottle-bot.mp4" type="video/mp4" />
+        </video>
+        <figcaption>
+          State-machine based autonomous plastic bottle pickup robot
+        </figcaption>
       </figure>
 
       <figure>
@@ -58,20 +105,24 @@
           <source src="videos/gdino.mp4" type="video/mp4" />
         </video>
         <figcaption>
-          gdino - PyTorch for FRC 2025 algae detection, learnt from mentor
+          GroundingDINO and PyTorch for FRC 2025 algae detection, helped by
+          mentor.
         </figcaption>
       </figure>
 
       <figure>
         <img src="images/YOLO.png" alt="yolo" class="yolo" />
-        <figcaption>Played w/ YOLO11 pretrained object recognition</figcaption>
+        <figcaption>Played w/ YOLO11 pretrained object recognition.</figcaption>
       </figure>
 
       <figure>
         <video class="mediapipe" width="320" height="240" controls>
           <source src="videos/Mediapipe.mp4" type="video/mp4" />
         </video>
-        <figcaption>Mediapipe gesture controlled mouse</figcaption>
+        <figcaption>
+          Gesture controlled mouse using Google's Mediapipe API for hand
+          landmarks, & PyAutoGUI to actually control the mouse.
+        </figcaption>
       </figure>
 
       <figure>
@@ -79,13 +130,13 @@
           <source src="videos/facial-recognition.mp4" type="video/mp4" />
         </video>
         <figcaption>
-          Raspberry Pi facial recognition security camera, Haar Cascade
+          Raspberry Pi facial recognition security camera, Haar Cascade based.
         </figcaption>
       </figure>
 
       <figure>
         <img src="images/robotic-arm.png" alt="6 dof arm" id="robotic-arm" />
-        <figcaption>6 DOF 3d printed arm</figcaption>
+        <figcaption>6 DOF 3D-printed arm</figcaption>
       </figure>
 
       <figure>
@@ -103,7 +154,7 @@
           alt="RC strandbeest"
           id="strandbeest"
         />
-        <figcaption>My RC FPV strandbeest model</figcaption>
+        <figcaption>My RC FPV strandbeest model.</figcaption>
       </figure>
 
       <figure>
@@ -116,48 +167,48 @@
       <figure>
         <img src="images/EV.JPG" alt="EV" id="EV" />
         <figcaption>
-          I made this for SciOly except I'm not doing SciOly anymore
-        </figcaption>
-      </figure>
-
-      <figure>
-        <video class="plastic-bottle-bot" width="320" height="240" controls>
-          <source src="videos/plastic-bottle-bot.mp4" type="video/mp4" />
-        </video>
-        <figcaption>
-          State-machine based autonomous plastic bottle pickup robot
+          I made this "EV" for SciOly except I'm not doing SciOly anymore.
         </figcaption>
       </figure>
 
       <figure>
         <img src="images/lidar-bot.png" alt="Lidar robot" id="lidar-bot-img" />
-        <figcaption>Current wip design for lidar robot with ROS2</figcaption>
+        <figcaption>Current WIP design for LiDAR robot using ROS2</figcaption>
       </figure>
 
       <figure>
         <img src="images/ROSLidar.png" alt="ROS Lidar Demo" class="ROSLidar" />
         <figcaption>
-          I got started with ROS & lidar! Gazebo & Rviz sim
+          I got started with ROS & LiDAR! Gazebo & RViz sim shown.
         </figcaption>
       </figure>
     </div>
 
     <!-- OPEN SAUCE SECTION -->
-    <h1>My Open Sauce experience & some cool people I met!</h1>
+    <h1>My Open Sauce 2024 experience & some cool people I met!</h1>
 
     <figure>
       <img src="images/booth-image.jpg" alt="Booth" class="booth-image" />
       <figcaption>
-        My booth! Me explaning dragonfly ornithopter mechanism
+        My booth! Me explaning a dragonfly ornithopter mechanism.
       </figcaption>
     </figure>
 
     <p id="boothP">
-      At my booth I showed my Arduino quadcopter which uses an mpu6050, a line
-      follower, a humanoid hand, facial recognition on raspi, an ornithopter,
-      aruco marker detection, and a simple hc05 bluetooth rc car. It was very
-      fun!
+      At my booth I showed my Arduino quadcopter which uses an MPU-6050 gyro and
+      accelerometer, a line follower using 2 IR sensors, a 3D-printed humanoid
+      hand, facial recognition on a Raspberry Pi, an ornithopter, ArUco marker
+      detection, and a simple HC-05 bluetooth RC car. It was very fun!
     </p>
+
+    <figure>
+      <img
+        src="images/Veritasium.jpg"
+        alt="Veritasium"
+        class="people-met-photos"
+      />
+      <figcaption>I met Veritasium!</figcaption>
+    </figure>
 
     <figure>
       <img
@@ -170,29 +221,11 @@
 
     <figure>
       <img
-        src="images/tom-stanton.JPG"
-        alt="Tom Stanton"
-        class="people-met-photos"
-      />
-      <figcaption>I met Tom Stanton</figcaption>
-    </figure>
-
-    <figure>
-      <img
-        src="images/Styropyro.jpg"
-        alt="Styropyro"
-        class="people-met-photos"
-      />
-      <figcaption>I met Styropyro (Drake)</figcaption>
-    </figure>
-
-    <figure>
-      <img
         src="images/Hacksmith.JPG"
         alt="The Hacksmith"
         class="people-met-photos"
       />
-      <figcaption>I met James Hobson (The Hacksmith)</figcaption>
+      <figcaption>I met James Hobson (The Hacksmith)!</figcaption>
     </figure>
 
     <figure>
@@ -205,17 +238,26 @@
     </figure>
 
     <figure>
-      <img src="images/JLaser.jpg" alt="Jake Laser" class="people-met-photos" />
-      <figcaption>I met Jake Laser (JLaserVideo)</figcaption>
+      <img
+        src="images/tom-stanton.JPG"
+        alt="Tom Stanton"
+        class="people-met-photos"
+      />
+      <figcaption>I met Tom Stanton!</figcaption>
     </figure>
 
     <figure>
       <img
-        src="images/Veritasium.jpg"
-        alt="Veritasium"
+        src="images/Styropyro.jpg"
+        alt="Styropyro"
         class="people-met-photos"
       />
-      <figcaption>I met Veritasium</figcaption>
+      <figcaption>I met Styropyro (Drake)!</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/JLaser.jpg" alt="Jake Laser" class="people-met-photos" />
+      <figcaption>I met Jake Laser (JLaserVideo)</figcaption>
     </figure>
 
     <figure>
@@ -224,7 +266,7 @@
         alt="Joel Creates"
         class="people-met-photos"
       />
-      <figcaption>I met Joel (Joel Creates)</figcaption>
+      <figcaption>I met Joel (Joel Creates)!</figcaption>
     </figure>
 
     <figure>
@@ -233,7 +275,7 @@
         alt="Peter Sripol"
         class="people-met-photos"
       />
-      <figcaption>I met Peter Sripol</figcaption>
+      <figcaption>I met Peter Sripol!</figcaption>
     </figure>
 
     <figure>
@@ -242,7 +284,7 @@
         alt="Project Air"
         class="people-met-photos"
       />
-      <figcaption>I met James Whomsley (Project Air)</figcaption>
+      <figcaption>I met James Whomsley (Project Air)!</figcaption>
     </figure>
   </body>
 </html>
