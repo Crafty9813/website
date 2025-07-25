@@ -1,3 +1,3 @@
 # website
 
-My personal website just using raw html and css.
+My personal website just using raw HTML and CSS. Hopefully it looks ok...
