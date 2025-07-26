@@ -139,6 +139,10 @@ figure img {
   border-radius: 200px;
 }
 
+#robotic-arm:hover {
+  opacity: 0.5;
+}
+
 .yolo {
   border-radius: 10px;
 }
@@ -158,8 +162,8 @@ figure img {
 /* Ppl photos */
 .people-met-photos {
   border-radius: 100px;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   padding: 5px;
   background: linear-gradient(45deg, blue, red);
   background-clip: padding-box;
