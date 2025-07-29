@@ -19,6 +19,13 @@ body {
   padding: 2rem 1rem;
 }
 
+.abt_me_header {
+  background: linear-gradient(lightblue, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Header style- for booth section*/
 h1 {
   text-align: center;
@@ -60,7 +67,7 @@ p {
   margin: auto;
   border-radius: 30%;
   padding: 5px;
-  background: linear-gradient(45deg, green, yellow) border-box;
+  background: linear-gradient(45deg, blue, lightblue) border-box;
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -115,7 +122,7 @@ figure {
 }
 
 figure:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
 figure img {
@@ -126,7 +133,7 @@ figure img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Specific img styles */
+/* Specific img styles cuz why not */
 #open-sauce-projects {
   border-radius: 100px;
 }
@@ -186,7 +193,7 @@ figcaption {
 }
 
 button {
-  margin-left: 30px;
+  margin-left: 20px;
   background: linear-gradient(45deg, #00a8ff, #007bff);
   color: white;
   border: none;
@@ -200,7 +207,7 @@ button {
 
 button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.7;
 }
 
 button:active {
