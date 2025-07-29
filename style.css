@@ -29,20 +29,10 @@ body {
 /* Header style- for booth section*/
 h1 {
   text-align: center;
-  background: linear-gradient(
-    to right,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    purple
-  );
+  background: linear-gradient(to right, rgba(255, 255, 170, 1), goldenrod);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  margin-bottom: 2rem;
-  padding: 0.5rem;
 }
 
 /* Paragraph styles*/
@@ -61,6 +51,7 @@ p {
   margin-bottom: 4rem;
 }
 
+/* GOLD PULSE GLOW */
 @keyframes pulse-glow {
   0% {
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.3), 0 0 20px rgba(255, 215, 0, 0.2),
@@ -112,7 +103,7 @@ p {
   border-radius: 20px;
   padding: 3px;
   background: linear-gradient(45deg, blue, lightblue);
-  width: 25%;
+  width: 20%;
   max-width: 500px;
   height: auto;
   flex-shrink: 0;
@@ -125,7 +116,7 @@ p {
 }
 
 #boothP {
-  color: lightgreen;
+  color: rgba(255, 255, 170, 1);
   margin-left: 50px;
   margin-right: 50px;
   flex: 1;
@@ -167,6 +158,8 @@ figure img {
 }
 
 #robotic-arm {
+  width: 90%;
+  height: auto;
   border-radius: 200px;
 }
 
@@ -175,6 +168,8 @@ figure img {
 }
 
 .yolo {
+  width: 80%;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -191,7 +186,6 @@ figure img {
 }
 
 /* Ppl photos */
-
 .people_photos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
