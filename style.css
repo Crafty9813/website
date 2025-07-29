@@ -41,7 +41,6 @@ h1 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: clamp(2rem, 5vw, 3.5rem);
   margin-bottom: 2rem;
   padding: 0.5rem;
 }
@@ -62,6 +61,24 @@ p {
   margin-bottom: 4rem;
 }
 
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3), 0 0 20px rgba(255, 215, 0, 0.2),
+      0 0 30px rgba(255, 215, 0, 0.1);
+    transform: scale(1.03);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6), 0 0 40px rgba(255, 215, 0, 0.4),
+      0 0 60px rgba(255, 215, 0, 0.2);
+    transform: scale(1.05);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3), 0 0 20px rgba(255, 215, 0, 0.2),
+      0 0 30px rgba(255, 215, 0, 0.1);
+    transform: scale(1.03);
+  }
+}
+
 #Me {
   display: block;
   margin: auto;
@@ -71,7 +88,8 @@ p {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  flex-shrink: 0;
+
+  animation: pulse-glow 1.5s ease-in-out infinite;
 }
 
 #IntroP {
@@ -94,10 +112,16 @@ p {
   border-radius: 20px;
   padding: 3px;
   background: linear-gradient(45deg, blue, lightblue);
-  width: 50%;
+  width: 25%;
   max-width: 500px;
   height: auto;
   flex-shrink: 0;
+
+  transition: box-shadow 0.3s ease;
+}
+
+.booth-image:hover {
+  box-shadow: 0 0 15px 5px gold;
 }
 
 #boothP {
@@ -155,7 +179,7 @@ figure img {
 }
 
 #EV {
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 #lidar-bot-img {
@@ -167,13 +191,32 @@ figure img {
 }
 
 /* Ppl photos */
+
+.people_photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
 .people-met-photos {
-  border-radius: 100px;
-  width: 40%;
-  height: 40%;
-  padding: 5px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  padding: 3px;
   background: linear-gradient(45deg, blue, red);
   background-clip: padding-box;
+  object-fit: cover;
+  display: block;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/*Pop out effect*/
+.people-met-photos:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 0, 100, 0.6),
+    0 0 20px rgba(255, 0, 100, 0.4), 0 0 30px rgba(255, 0, 100, 0.3);
 }
 
 figcaption {
@@ -256,6 +299,6 @@ button:active {
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
 }
