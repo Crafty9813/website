@@ -7,7 +7,7 @@
     <title>Jonathan Li</title>
   </head>
   <body>
-    <h1 class="abt_me_header">About me</h1>
+    <h1 class="abt_me_header">About Me!</h1>
 
     <img src="images/Me.jpg" alt="me" id="Me" />
 
@@ -18,11 +18,11 @@
       cool things ever since I was young, and most of the stuff I do here is
       self taught. I really thank my mom for all of her support in my passion. I
       have a Youtube channel where I explain many of my projects, and my GitHub
-      has most of the code for them. Scroll down to view some of my work! <br />
+      has most of the code for them. Scroll down to view some of my work!
       <br />
       <br />
       (Also as a sidenote sorry for website looking really sketchy, I just coded
-      it with pure HTML & CSS lol...no libraries like React)
+      it w/ pure HTML & CSS lol...no libraries like React)
     </p>
 
     <a href="https://www.youtube.com/@JonathanLi-9813/videos" target="_blank">
@@ -37,6 +37,28 @@
 
     <!-- IMAGES & VIDEOS OF PROJECTS -->
     <div class="image-container">
+      <figure>
+        <video class="ar-js" width="320" height="240" controls>
+          <source src="videos/ar-js.mp4" type="video/mp4" />
+        </video>
+        <figcaption>
+          Displaying 3D models on Hiro (or other fiducial markers like QR codes)
+          using AR.js, I'm looking into VSLAM instead.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/cv2-js.png" alt="opencv-js" id="cv2-js" />
+        <figcaption>
+          I created a web page using OpenCV.js to show computer vision
+          algorithms! Typically OpenCV is with Python, but this uses JS so no
+          Python backend needed!
+        </figcaption>
+        <a href="https://crafty9813.github.io/browser-cv2.js/" target="_blank"
+          >Try it out here!</a
+        >
+      </figure>
+
       <figure>
         <video class="num-classifier" width="320" height="240" controls>
           <source src="videos/num_classifier.mp4" type="video/mp4" />
@@ -84,7 +106,9 @@
           <source src="videos/apriltag-follower.mp4" type="video/mp4" />
         </video>
         <figcaption>
-          Raspberry Pi Apriltag (or other fiducial markers) follower.
+          Raspberry Pi Apriltag follower using OpenCV and the apriltag library
+          in Python. I also added a "follow by ID" mode so it would be able to
+          perform a series of tasks.
         </figcaption>
       </figure>
 
@@ -109,7 +133,10 @@
         <video class="ultrasonic-lamp" width="320" height="240" controls>
           <source src="videos/ultrasonic_lamp.mp4" type="video/mp4" />
         </video>
-        <figcaption>HC-SR04 ultrasonic sensor motion lamp.</figcaption>
+        <figcaption>
+          HC-SR04 ultrasonic sensor motion lamp, mean't to make life easier,
+          especially for when you need to get up midnight.
+        </figcaption>
       </figure>
 
       <figure>
@@ -117,7 +144,8 @@
           <source src="videos/arduino-lidar-bot.mp4" type="video/mp4" />
         </video>
         <figcaption>
-          Simple Arduino obstacle avoiding robot using LiDAR
+          Simple Arduino obstacle avoiding robot using LiDAR...works as a simple
+          DIY roomba I guess.
         </figcaption>
       </figure>
 
@@ -126,7 +154,8 @@
           <source src="videos/plastic-bottle-bot.mp4" type="video/mp4" />
         </video>
         <figcaption>
-          State-machine based autonomous plastic bottle pickup robot
+          State-machine based autonomous robot to throw away trash (plastic
+          bottles).
         </figcaption>
       </figure>
 
@@ -155,11 +184,6 @@
       </figure>
 
       <figure>
-        <img src="images/robotic-arm.png" alt="6 dof arm" id="robotic-arm" />
-        <figcaption>6 DOF 3D-printed arm</figcaption>
-      </figure>
-
-      <figure>
         <img
           src="images/open-sauce-projects.jpg"
           alt="Open Sauce projects"
@@ -174,21 +198,18 @@
           alt="RC strandbeest"
           id="strandbeest"
         />
-        <figcaption>My RC FPV strandbeest model, using an Arduino.</figcaption>
+        <figcaption>
+          My RC FPV strandbeest model (goal was to mimic an animal so you could
+          use it to monitor species...but uhhh clearly it doesn't quite look
+          like an animal...)
+        </figcaption>
       </figure>
 
       <figure>
-        <video class="swerve-drive" width="400" height="300" controls>
+        <video class="swerve-drive" width="320" height="240" controls>
           <source src="videos/swerve-drive.mp4" type="video/mp4" />
         </video>
         <figcaption>My custom Arduino swerve drive</figcaption>
-      </figure>
-
-      <figure>
-        <img src="images/EV.JPG" alt="EV" id="EV" />
-        <figcaption>
-          I made this "EV" for SciOly except I'm not doing SciOly anymore.
-        </figcaption>
       </figure>
 
       <figure>
@@ -196,6 +217,11 @@
         <figcaption>
           Heres my WIP design in Fusion 360 for a ROS LiDAR bot.
         </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/robotic-arm.png" alt="6 dof arm" id="robotic-arm" />
+        <figcaption>6 DOF 3D-printed arm</figcaption>
       </figure>
     </div>
 
@@ -205,7 +231,12 @@
     <figure>
       <img src="images/booth-image.jpg" alt="Booth" class="booth-image" />
       <figcaption>
-        My booth! Me explaning a dragonfly ornithopter mechanism.
+        My booth! Me explaning a dragonfly ornithopter mechanism which many
+        <br />
+        found interest in. This simple mechanism could be used for tiny drones,
+        although <br />
+        I'm not too sure if it would be more efficient than just using
+        propellers
       </figcaption>
     </figure>
 

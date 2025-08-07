@@ -20,10 +20,7 @@ body {
 }
 
 .abt_me_header {
-  background: linear-gradient(lightblue, blue);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: lightskyblue;
 }
 
 /* Header style- for booth section*/
